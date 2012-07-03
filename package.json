@@ -1,6 +1,6 @@
 {
     "name" : "voicebox-karaoke",
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "description" : "voicebox api",
     "main" : "index.js",
     "bin" : {},
@@ -8,7 +8,9 @@
         "example" : "example",
         "test" : "test"
     },
-    "dependencies" : {},
+    "dependencies" : {
+        "request" : "2.9.x"
+    },
     "devDependencies" : {
         "tap" : "~0.2.5"
     },
