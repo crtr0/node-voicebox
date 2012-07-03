@@ -1,0 +1,36 @@
+{
+    "name" : "voicebox",
+    "version" : "0.0.0",
+    "description" : "voicebox api",
+    "main" : "index.js",
+    "bin" : {},
+    "directories" : {
+        "example" : "example",
+        "test" : "test"
+    },
+    "dependencies" : {},
+    "devDependencies" : {
+        "tap" : "~0.2.5"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-voicebox.git"
+    },
+    "homepage" : "https://github.com/substack/node-voicebox",
+    "keywords" : [
+        "voicebox",
+        "karaoke",
+        "jukebox",
+        "music"
+    ],
+    "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+    },
+    "license" : "MIT",
+    "engine" : { "node" : ">=0.6" }
+}
