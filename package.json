@@ -1,5 +1,5 @@
 {
-    "name" : "voicebox",
+    "name" : "voicebox-karaoke",
     "version" : "0.0.0",
     "description" : "voicebox api",
     "main" : "index.js",
